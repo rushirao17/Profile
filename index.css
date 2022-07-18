@@ -1,20 +1,22 @@
-html{
-    font-family:'Arial Narrow', Arial;
+html {
+    font-family: 'Arial Narrow', Arial;
     background: #fff6da;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
-hr{
+hr {
     background: grey;
 }
-#container{
-    position: relative;
+
+#container {
+    padding: auto;
+    position:relative;
     display: flex;
 }
-#profile{
+#profile {
     flex: 15%;
     display: block;
     position: relative;
@@ -22,7 +24,7 @@ hr{
     width: 100%;
     height: 100%;
 }
-#info-cards{
+#info-cards {
     flex: 55%;
     display: block;
     margin-top: 5%;
@@ -30,131 +32,131 @@ hr{
     width: 100%;
     height: 100%;
 }
-#image{
+#image {
     position: relative;
     overflow: hidden;
 }
-#image,#profile-photo{
+#image,#profile-photo {
     position: relative;
     width: 186px;
     border-radius: 105px;
 }
 
-#name{
+#name {
     font-size: 23px !important;
     line-height: 20px !important;
 }
-#about,.card > ul > li{
+#about,.card>ul>li {
     padding: 0 0 0 15px;
     position: relative;
     display: inline-block;
     width: 100%;
 }
-#about{
+#about {
     font-size: 20px !important;
     padding: 0 !important;
 }
-#name, #about > p{
+#name,#about>p {
     font-weight: bolder;
     font-family: 'Open Sans', sans-serif;
 }
-#email{
+#email {
     font-size: 15px !important;
     font-weight: bold !important;
-    font-family: 'Cutive Mono',monospace;
+    font-family: 'Cutive Mono', monospace;
 }
-#college,#email,#year-graduation,#education,#more-about,#phone{
+#college,#email,#year-graduation,#education,#more-about,#phone {
     color: #555;
     font-size: 13.5px;
 }
-strong,span{
+strong,span {
     color: black;
     font-size: 16px;
 }
-#social-links,#about{
+#social-links,#about {
     display: inline-block;
 }
-#social-links{
+#social-links {
     margin-bottom: 12px;
 }
-#social-links a{
+#social-links a {
     margin: 0 10px;
 }
 
-.fab{
+.fab {
     font-size: 1.1em;
 }
-.fab,.fas{
+.fab,.fas {
     color: whitesmoke;
 }
-#about > a{
+#about>a {
     top: 4px;
     right: 8px;
 }
-.edit{
+.edit {
     top: 19px;
     right: 10px;
 }
-#about > a, .edit{
+#about>a,.edit {
     position: absolute;
     font-size: 15px !important;
 }
 .stroke-transparent {
- -webkit-text-stroke: 1px #000;
- -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #000;
+    -webkit-text-fill-color: transparent;
 }
 
-.card{
-    box-shadow: 10px 10px 10px 0 rgba(0,0,0,.1);
+.card {
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, .1);
     overflow-x: hidden;
     margin-bottom: 30px;
     border-radius: 10px;
     padding: 15px 30px 30px 30px;
     background-color: #fff1a9;
 }
-.card > p{
+.card>p {
     color: rgb(157, 106, 10);
     font-weight: bolder;
     font-size: 18px;
     line-height: 2;
 }
 
-.card > ul{
+.card>ul {
     list-style-type: none;
 }
-.tags{
+.tags {
     font-size: 17px;
     font-weight: bolder;
 }
-.tags ~ a{
+.tags~a {
     display: none !important;
 }
-.tags span{
+.tags span {
     font-size: 14px;
     font-weight: normal;
     color: #0e141e;
 }
-.tags span span{
+.tags span span {
     color: #738f93;
 }
-@media screen and (max-width:1090px){
-    #profile{
+@media screen and (max-width:1090px) {
+    #profile {
         margin-left: 5%;
     }
 }
-@media screen and (max-width:850px){
-    #container{
+@media screen and (max-width:850px) {
+    #container {
         display: block;
     }
-    #profile{
+    #profile {
         width: 90%;
     }
-    .card{
+    .card {
         margin: 0 5%;
         margin-bottom: 30px;
     }
 }
-lable{
+lable {
     padding: 12px 12px 12px 0;
     display: inline-block;
 }
@@ -169,27 +171,27 @@ input[type=submit] {
 
 }
 /* skill  */
-.wrapper{
+.wrapper {
 
     width: 210px;
     font-family: 'Roboto', sans-serif;
-    margin: 0 auto;
+    margin: 0 1.5cm;
     padding: 0px 390px 0 0px;
 
 }
 .skill {
     margin-bottom: 15px;
     position: relative;
-  overflow-x:hidden;
-  
+    overflow-x: hidden;
+
 }
-.skill > p {
+.skill>p {
     font-size: 11px;
     font-weight: 700;
     color: #1a1716;
     margin: 0;
 }
-.skill:before{
+.skill:before {
     width: 100%;
     height: 4px;
     content: "";
@@ -201,17 +203,17 @@ input[type=submit] {
 .skill-bar {
     width: 100%;
     height: 4px;
-    background:rgb(157, 106, 10);
+    background: rgb(157, 106, 10);
     display: block;
     position: relative;
 }
 
 /* SKILL 1 */
-.skill1{
+.skill1 {
     width: 70%;
-  
+
 }
-.skill-bar span{
+.skill-bar span {
     position: absolute;
     border-top: 4px solid #251291;
     top: -19px;
@@ -222,14 +224,14 @@ input[type=submit] {
 }
 .skill-bar {
     position: relative;
-  
+
 }
 
 .skill1 .skill-count1 {
     right: 0;
 }
 /* SKILL 2 */
-.skill2{
+.skill2 {
     width: 65%;
 }
 
@@ -237,7 +239,7 @@ input[type=submit] {
     right: 0;
 }
 /* SKILL 3 */
-.skill3{
+.skill3 {
     width: 40%;
 }
 .skill3 .skill-count3 {
@@ -245,7 +247,7 @@ input[type=submit] {
 }
 
 /* SKILL 4 */
-.skill4{
+.skill4 {
     width: 60%
 }
 
@@ -254,7 +256,9 @@ input[type=submit] {
 }
 
 #foot {
+    width: 100%;
     height: 50px;
+    margin-top: 70px;
     background-color: #fff1a9;
     display: flex;
     font-size: 25px;
@@ -266,7 +270,7 @@ input[type=submit] {
 }
 
 
-form{
+form {
     margin-left: 1cm;
 }
 
@@ -274,27 +278,84 @@ form{
 
 
 
-.button{
+.button {
     display: inline-block;
-    color: #fff;
+    color: rgb(157, 106, 10);
     font-weight: bold;
-    background-color: rgb(157, 106, 10);
+    background-color: #fff6da;
     text-decoration: none;
     margin-left: 1cm;
     padding: 1px 10px;
-    border: 3px solid rgb(157, 106, 10);
+    border: 1px solid rgb(157, 106, 10);
     border-radius: 10px;
 }
 
-.button:hover{
-    animation: pulsate 1s 
-    ease-in-out; /*The pulsate animation is added on hover. You could also add this on .button:focus and it will add it when clicking the button as well.*/
+.button:hover {
+    animation: pulsate 1s ease-in-out;
+    /*The pulsate animation is added on hover. You could also add this on .button:focus and it will add it when clicking the button as well.*/
 }
 
 @keyframes pulsate {
-    0%{
-        box-shadow: 
-        0 0 25px #fa8f0c,
-        0 0 50px #f0b010;
+    0% {
+        box-shadow:
+            0 0 25px #fa8f0c,
+            0 0 50px #f0b010;
     }
+}
+
+
+
+
+
+
+
+
+#toggle {
+    display: none;
+}
+
+.but {
+    display: inline-block;
+    width: 60px;
+    margin-top: 2cm;
+    margin-left: 85%;
+    height: 25px;
+    background-color: rgb(111, 111, 111);
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+
+.but::after {
+    content: url('./images/sun-line.svg');
+    /* Add in the image. You could also add an icon by the using the icon's unicode (sites like fontawesome.com provide this). */
+    width: 30px;
+    height: 30px;
+    /* Making the icon slightly taller than the button container. */
+    background-color: #fff6da;
+    border: 2px solid rgb(111, 111, 111);
+    border-radius: 20%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+    position: absolute;
+    top: -5px;
+    /* Since the button has a height of 35px and the ::after has 40px, we offset the difference by pushing it up by 5px to center this element vertically. */
+    left: 0;
+    display: grid;
+    /* Used for centering the icon image in the middle in conjunction with place content center. */
+    place-content: center;
+    line-height: 0;
+    /*By default this will have a line height. This means that the image will not be perfectly centered by using the properties above. To make sure we can center this image in the middle, we make the line height 0. */
+    transition: background-color .7s,
+        transform .7s ease-in;
+}
+
+#toggle:checked+.but::after {
+    content: url('./images/moon-line.svg');
+    /* Switching the images when clicked. */
+    background-color: rgb(0, 0, 16);
+    transform: translateX(30px) rotate(270deg);
+    /* Since the width of the button is 90px and the pseudo element is 40px we translate by a number that adds up to 90. So we translate to the right by 50px ( 40 + 50 = 90 width of the button). We also rotate this element by 360 degrees. */
 }
